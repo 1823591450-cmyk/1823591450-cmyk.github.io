@@ -92,6 +92,10 @@
         <div class="game__media">
           <div class="tabs" role="tablist" aria-label="洞穴演示路线">
             <button class="tab is-active" role="tab" aria-selected="true"
+                    data-src="assets/video/cave-full.mp4"
+                    data-poster="assets/img/poster-cave-full.jpg"
+                    data-label="完整演示 · 1 分 54 秒">完整演示</button>
+            <button class="tab" role="tab" aria-selected="false"
                     data-src="assets/video/cave-surface.mp4"
                     data-poster="assets/img/poster-cave-surface.jpg"
                     data-label="实机演示 · 地表路线">地表路线</button>
@@ -101,21 +105,21 @@
                     data-label="实机演示 · 天井路线">天井路线</button>
           </div>
           <figure class="player" id="cavePlayer"
-                  data-src="assets/video/cave-surface.mp4"
-                  data-poster="assets/img/poster-cave-surface.jpg"
-                  data-label="地表路线 · 实机演示">
-            <img src="assets/img/poster-cave-surface.jpg" alt="《洞穴·重见天明》地表路线实机画面">
-            <button class="player__play" aria-label="播放洞穴地表路线实机演示">
+                  data-src="assets/video/cave-full.mp4"
+                  data-poster="assets/img/poster-cave-full.jpg"
+                  data-label="完整演示 · 1 分 54 秒">
+            <img src="assets/img/poster-cave-full.jpg" alt="《洞穴·重见天明》完整演示画面">
+            <button class="player__play" aria-label="播放洞穴完整演示 1 分 54 秒">
               <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
             </button>
-            <figcaption>实机演示 · 地表路线</figcaption>
+            <figcaption>完整演示 · 1 分 54 秒</figcaption>
           </figure>
         </div>
         <div class="game__body">
           <p class="meta">Unity 2022.3 · 第一人称解谜 · 2026</p>
           <h3>《洞穴 · 重见天明》</h3>
           <p class="desc">
-            从一节地铁车厢跌进地下洞穴，手里只有手电和一台手机。照明范围决定你能看清什么，也决定你敢往哪走。地表与天井是两条不同的出口，对应两种结局。
+            从一节地铁车厢跌进地下洞穴，手里只有手电和一台手机。照明范围决定你能看清什么，也决定你敢往哪走。地表与天井是两条不同的出口，对应两种结局。完整演示 1 分 54 秒，按路线分章剪成；只想看某条路线，切上面的标签。
           </p>
           <dl class="facts">
             <div><dt>完成度</dt><dd>约 15–20 分钟可通关，天井与地表两条结局线</dd></div>
@@ -245,12 +249,12 @@
             <figcaption><b>2024</b> · 第一部分 3 分 00 秒</figcaption>
           </figure>
           <div class="card__body">
-            <p class="meta">AI 科幻短片 · 2024 · 全片约 6 分钟 · Vidu + DaVinci</p>
+            <p class="meta">AI 科幻短片 · 2024 · 全片约 6 分钟 · Sora + DaVinci</p>
             <h3>《高阶文明》</h3>
             <p class="desc">
-              火箭升空、太空舰队、新闻发布会与直播弹幕交织的一条科幻线。剧本先拆成分镜表，用 Vidu 批量生成镜头再挑可用的；旁白和音效单独做，最后回 DaVinci 剪、调色、混音。
+              火箭升空、太空舰队、新闻发布会与直播弹幕交织的一条科幻线。剧本先拆成分镜表，用 Sora 逐镜生成再挑可用的；旁白和音效单独做，最后回 DaVinci 剪、调色、混音。
             </p>
-            <ul class="tags"><li>Vidu</li><li>分镜表</li><li>旁白配音</li><li>调色混音</li></ul>
+            <ul class="tags"><li>Sora</li><li>分镜表</li><li>旁白配音</li><li>调色混音</li></ul>
             <a class="link" href="#" data-play="assets/video/civ2.mp4" data-poster="assets/img/poster-civ2.jpg" data-label="《高阶文明》第二部分 · 2 分 51 秒">
               播放第二部分 · 2 分 51 秒 ↗
             </a>
@@ -292,10 +296,10 @@
             <figcaption><b>2024</b> · 58 秒</figcaption>
           </figure>
           <div class="card__body">
-            <p class="meta">实拍短片 · 2024</p>
+            <p class="meta">实拍短片 · 2024 · 实拍 + AE 动效</p>
             <h3>班级短片</h3>
-            <p class="desc">从策划、分镜、实拍到成片独立完成。片头按音乐节拍点排关键帧。</p>
-            <ul class="tags"><li>策划</li><li>实拍</li><li>节拍剪辑</li></ul>
+            <p class="desc">从策划、分镜、实拍到成片独立完成。片头动效在 AE 里做，按音乐节拍点排关键帧，节奏跟音乐一起走；实拍素材回剪辑软件对轨、调色，最后合成输出。</p>
+            <ul class="tags"><li>策划</li><li>实拍</li><li>AE 动效</li><li>节拍剪辑</li></ul>
           </div>
         </article>
 
@@ -368,7 +372,7 @@
         </div>
         <div class="skill reveal">
           <h4>AIGC</h4>
-          <p>Vidu、可灵、即梦、Runway、Midjourney、GPT-SoVITS</p>
+          <p>Sora、Vidu、可灵、即梦、Runway、Midjourney、GPT-SoVITS</p>
         </div>
         <div class="skill reveal">
           <h4>三维</h4>
