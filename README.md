@@ -2,7 +2,7 @@
 
 Unity 游戏开发 × AIGC 影像制作。数字媒体技术专业，2027 届。
 
-**在线访问：<https://1823591450-cmyk.github.io/portfolio/>**
+**在线访问：<https://1823591450-cmyk.github.io/>**
 
 ---
 

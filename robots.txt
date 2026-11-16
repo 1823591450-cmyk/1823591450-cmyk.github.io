@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://1823591450-cmyk.github.io/portfolio/sitemap.xml
+Sitemap: https://1823591450-cmyk.github.io/sitemap.xml
